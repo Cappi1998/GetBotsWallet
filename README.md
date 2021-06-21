@@ -5,6 +5,9 @@ ATTENTION: this is an example plugin made by me, I am studying the creation of p
 
 native function command "balance {BotName}" or "balance asf" to see the balance of all bots.
 ---
+
+
+
 # How to use
 Just Run the command: "wallet {BotName}" or "wallet asf" to see the balance of all bots.
 
