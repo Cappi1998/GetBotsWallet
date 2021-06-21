@@ -4,3 +4,6 @@ Simple plugin for [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFar
 
 # How to use
 Just Run the command: "wallet {BotName}" or "wallet asf" to see the balance of all bots.
+
+
+![](Screenshots/Print.png)
