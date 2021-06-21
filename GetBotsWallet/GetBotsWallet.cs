@@ -7,6 +7,7 @@ using ArchiSteamFarm.Steam.Interaction;
 using System;
 using System.Collections.Generic;
 using System.Composition;
+using System.Globalization;
 using System.Threading.Tasks;
 
 namespace GetBotsWallet
@@ -52,7 +53,7 @@ namespace GetBotsWallet
             {
                 if (bot.IsConnectedAndLoggedOn)
                 {
-                    string responsebot = $"<{bot.BotName}> - Wallet:{bot.WalletBalance} - Currency:{bot.WalletCurrency}";
+                    string responsebot = $"<{bot.BotName}> - Wallet:{string.Format(CultureInfo.CurrentCulture, Convert.ToString(bot.WalletBalance / 100.0))} - Currency:{bot.WalletCurrency}";
                     Wallets.Add(responsebot);
                 }
                 else
